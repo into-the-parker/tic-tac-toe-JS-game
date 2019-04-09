@@ -1,0 +1,122 @@
+@-webkit-keyframes tool {  
+  0% { background-color: #80f442; }
+  50% { background-color: #41f441; }
+  51% { background-color: white; }
+  100% { background-color: white; }
+}
+
+.blinkdiv {
+    height: 100px;
+    background-color: green;
+    -webkit-animation-name: tool;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 2s; 
+} 
+
+@-webkit-keyframes red {  
+  0% { background-color: #ba3232; }
+  50% { background-color: #ba3232; }
+  51% { background-color: white; }
+  100% { background-color: white; }
+}
+
+.blinkdiv2 {
+    height: 100px;
+    background-color: green;
+    -webkit-animation-name: red;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 2s; 
+}
+
+
+body {
+  background:url("https://images.pexels.com/photos/834747/pexels-photo-834747.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+  
+    font-family: 'Armata';font-size: 22px;
+}
+
+#countDown{
+  
+  width: 10rem;
+  height: 10rem;
+  border: 4px solid #f44141;
+  border-radius: 50%;
+  margin: 50px auto;
+  position: relative;
+  padding: 20px;
+  background-color: #b5b6b7;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px #c741f4;
+}
+
+#double{
+  
+  width: 10rem;
+  height: 10rem;
+  border: 4px solid purple;
+  border-radius: 50%;
+  margin: 50px auto;
+  position: relative;
+  padding: 20px;
+  background-color: #b5b6b7;
+  cursor: pointer;
+}
+
+#session{
+  text-align: center;
+  color:black;
+}
+
+#sessionD{
+  text-align: center;
+  color:black;
+  
+}
+#sessionT{
+  text-align: center;
+  color:black;
+}
+
+#timer{
+  font-size: 30px;
+  text-align: center;
+  color:black;
+  padding-top: 10px;
+}
+  
+#sessionlength{
+  text-align: center;
+  color:black;
+  margin-right: 500px;
+  margin-top: -200px;
+}
+#down{
+  cursor: pointer;
+  color: #f44141;
+}
+#up{
+  cursor: pointer;
+  color:#73f441;
+}
+
+#breakDuration{
+  text-align: center;
+  color:black;
+   margin-right: -500px;
+  margin-top: -195px;
+}
+#downS{
+  cursor: pointer;
+ color: #f44141;
+}
+#upS{
+  cursor: pointer;
+  color:#73f441;
+}
+
+#click-me{
+  cursor: pointer;
+  
+}
